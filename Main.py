@@ -8,7 +8,7 @@ class Stack:
         return self.top <= -1
 
     def is_full(self):
-        if(self.isfull():
+        if(self.isfull()
             print("Stack is full....")
         else:
             self.top +=1
@@ -16,18 +16,18 @@ class Stack:
             print(self.stack)
 
     def push(self, data):
-        if not self.is_full():
+        if not self.is_full()
             self.top += 1
             self.stack.append(data)
 
     def pop(self):
-        if not self.is_empty():
+        if not self.is_empty()
             x=self.stack.pop()
             self.top -= 1
             return x
 
     def status(self):
-        if(self.isempty()):
+        if(self.isempty())
            print("Stack is empty")
         else:
            print(self.stack[self.top])
