@@ -27,7 +27,10 @@ class Stack:
             return x
 
     def status(self):
-        check self.stack(status)
+        if(self.isempty()):
+           print("Stack is empty")
+        else:
+           print(self.stack[self.top])
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
